@@ -1,0 +1,59 @@
+$button-width: 183px;
+$button-height: 43px;
+
+.header{
+    position: sticky;
+    top: 0;
+    min-height: 5px;
+    max-width: $main-width;
+    height: 850px;
+    background-image: url('/images/logo.jpg');
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+.header__text{
+    margin-top: 148px;
+    padding-left: 375px;
+}
+.header__heading{
+    text-transform: uppercase;
+    font-size: $basefontsize + 28 + px;
+    font-weight: 700;    
+}
+.header__theses_bold{
+    font-weight: 700;
+    font-size: $basefontsize + px;
+}
+.header__theses{
+    font-weight: 400;
+    line-height: 30px;
+    font-size: $basefontsize + px;    
+    margin-left: $basefontsize + px;
+}
+.header__button-block{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 43px;       
+}
+.header__button{
+    width: $button-width;
+    height: $button-height; 
+    margin-right: 30px;
+    border-radius: 4px;   
+    text-transform: uppercase;
+    font-size: $basefontsize - 7 + px;
+}
+.header__button:hover{
+    cursor: pointer;
+}
+.header__button-blue{
+    background-color: $blue-color;
+    color: $white-color;    
+    border: 1px solid  $white-color;
+}
+.header__button-white{
+    background-color: $white-color;
+    color: $gray-color;    
+    border: 1px solid  $gray-color;
+}

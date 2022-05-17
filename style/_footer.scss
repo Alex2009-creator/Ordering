@@ -1,0 +1,35 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    letter-spacing: $letterspacing * 20 + px;
+    width: 100%;
+    height: 80px;
+    background-color: #3D4050;    
+    font-family: 'Lato', sans-serif;    
+}
+.footer__elements{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+.footer__elements-contact{
+    font-size: $basefontsize - 7 + px;
+    color: $white-color;
+}
+.footer__elements-pictogram{
+    font-size: $basefontsize * 1.2 + px;
+    padding-right: 10px;
+    color: $blue-color;
+}
+.footer__elements-img{
+    width: 30px;
+    height: 30px;
+    padding-top: 6px;
+}
+.footer__elements-money{
+    font-size: $basefontsize - 7 + px;
+    color: #C3C3C3;
+}

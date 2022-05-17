@@ -1,0 +1,36 @@
+
+.leftbar__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: $input-baseweight + px;
+    height: 208px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family: Lato;
+    font-size: $basefontsize - 2 + px;
+    font-weight: 400;
+    line-height: 44px;    
+    color: $white-color;
+    padding: 0;
+}
+.leftbar__heading{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+    width: $input-baseweight + px;
+    height: 48px;
+    background-color: rgba(61, 64, 80, 0.85);
+    font-size: $basefontsize - 2 + px;
+    font-weight: 400;
+    color: $white-color;
+    padding: 0 15px;
+    border-radius: 3px;
+}
+.leftbar__heading-text{
+    align-items: center;
+}
+.leftbar__list-item{
+    list-style-type: none;
+}
